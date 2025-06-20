@@ -84,16 +84,17 @@ backend/
 │   └── symptom_index.pkl
 ```
 **file structure -Frontend(codesandbox)**
+```
 src/
-├── App.js         # Main React component
-├── index.js       # Renders <App /> to DOM
-└── styles.css     # Optional styling
+├── App.js         
+├── index.js       
+└── styles.css     
 
 public/
-└── index.html     # Root HTML template
+└── index.html     
 
-package.json       # React dependencies and scripts
-
+package.json  
+```
 
 **📽️ Demo & Submission**
 
