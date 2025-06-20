@@ -96,5 +96,4 @@ public/
 package.json  
 ```
 
-**📽️ Demo & Submission**
 
