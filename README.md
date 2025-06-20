@@ -63,7 +63,7 @@ docker run -p 5000:5000 medbot-backend
 
 > This project uses **CodeSandbox** for frontend. You can either:
 
-* Open this link: `https://codesandbox.io/s/your-sandbox-link`
+* Open this link: `https://codesandbox.io/p/sandbox/medbot-7456kf`
 * Or manually copy `App.js` and `package.json` to CodeSandbox React template
 
 ⚠️ Make sure the backend (localhost:5000) is running when using locally.
@@ -84,16 +84,16 @@ backend/
 │   └── symptom_index.pkl
 ```
 **file structure -Frontend(codesandbox)**
-NODEBOX/
-├── public/
-│   └── index.html         ← Auto-handled by React
-│
-├── src/
-│   ├── App.js             ← ✅ Main logic (symptom input, axios call)
-│   ├── index.js           ← ✅ React entry point (renders <App />)
-│   └── styles.css         ← Optional: for styling
-│
-├── package.json           ← ✅ Declares React dependencies
+src/
+├── App.js         # Main React component
+├── index.js       # Renders <App /> to DOM
+└── styles.css     # Optional styling
+
+public/
+└── index.html     # Root HTML template
+
+package.json       # React dependencies and scripts
+
 
 **📽️ Demo & Submission**
 
